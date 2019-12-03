@@ -1,0 +1,24 @@
+.fab {
+  font-size: 40px;
+  color: black;
+}
+.fa-facebook-square:hover {
+  color: blue;
+}
+.fa-pinterest:hover {
+  color: rgb(211, 71, 71);
+}
+.fa-youtube:hover {
+  color: red;
+}
+.fa-instagram:hover {
+  background-color: linear-gradient(
+    to right,
+    yellow,
+    orange,
+    red,
+    violet,
+    indigo,
+    blue
+  );
+}

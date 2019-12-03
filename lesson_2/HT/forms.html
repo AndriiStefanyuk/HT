@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid gray;
+      }
+      table {
+        width: auto;
+      }
+      th {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Lesson_2-forms
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>
+          <label for="name">Name</label>
+        </td>
+        <td>
+          <p><input type="text" value="" id="name" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>
+          <label><input type="radio" />Male</label><br />
+          <label><input type="radio" checked />Female</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Eye color</td>
+        <td>
+          <select name="color">
+            <option value="green">green</option>
+            <option value="brown">brown</option>
+            <option value="blue">blue</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Check all that apply</td>
+        <td>
+          <label><input type="checkbox" />Over 6 feet tall</label><br />
+          <label><input type="checkbox" />Over 200 pounds</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          Describe your athletic ability: <br />
+          <textarea name="message" rows="10" cols="50"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button type="button">Enter my information</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

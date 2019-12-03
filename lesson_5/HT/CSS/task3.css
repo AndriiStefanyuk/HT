@@ -1,0 +1,18 @@
+li {
+  display: inline-block;
+  width: 30%;
+  background-color: rgb(184, 190, 196);
+  text-align: center;
+  margin: 0 5px 5px 0;
+  padding: 10px;
+}
+/* li:last-child{
+    background-color:lightgreen;
+}
+li:nth-child(3) {
+    background: lightgreen;
+  }  */
+li:last-child,
+li:nth-child(3) {
+  background-color: lightgreen;
+}

@@ -1,0 +1,67 @@
+/* підключаємо шрифт open sans, бо Proxima nova i Myriad - платні */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+body {
+  background-color: white;
+  font-family: "open sans";
+  font-size: 18x;
+  line-height: 2;
+}
+p,
+h1 {
+  color: white;
+  text-align: center;
+}
+#about {
+  font-size: 48px;
+  line-height: 0.75;
+}
+.name {
+  font-size: 24px;
+  line-height: 1.5;
+}
+#container {
+  /* background-color: red; */
+  height: 900px;
+  width: 1920px;
+  background-attachment: fixed;
+  /* width: auto; */
+  background-image: url("../images/agency-final.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px 30px 60px 30px;
+}
+
+#top {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 135px;
+}
+#container_center {
+  margin-left: 400px;
+}
+
+.round {
+  width: 130px;
+  background-color: rgb(19, 17, 16);
+  border-radius: 100px; /* Радиус скругления */
+  display: block;
+  margin: 30px auto;
+}
+
+.button {
+  background: linear-gradient(to right, #49007c, #c20085);
+  border-radius: 20px;
+  display: block;
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  padding: 5px 20px;
+}
+.person {
+  margin: 0 0 0 30px;
+  display: inline-block;
+  width: 250px;
+}

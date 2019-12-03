@@ -1,0 +1,14 @@
+ul {
+    list-style-type:square;
+}
+p{
+    font-size: 40px;
+}
+li:first-child{
+    color: #ff50b6;
+    font-style: bold ;
+}
+li:last-child{
+    color:green;
+    font-style: italic ;
+}

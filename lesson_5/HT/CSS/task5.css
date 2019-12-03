@@ -1,0 +1,23 @@
+body{
+    background-color:lightgray;
+}
+section{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+div{
+    font-weight: bold;
+    margin:0 25% 0 25%;
+    border-bottom: 1px solid rgb(156, 153, 153);
+    text-align: center;
+}
+p{
+    width: 300px;
+    padding: 10px;
+}

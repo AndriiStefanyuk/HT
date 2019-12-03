@@ -1,0 +1,24 @@
+body {
+    background: rgb(133, 125, 125); 
+}
+section {
+    background: white;
+    border: 2px solid red;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+    p{
+        width: 300px;
+        padding: 10px;
+    }
+    div{
+        margin:0 25% 0 25%;
+        border-bottom: 1px solid red;
+        text-align: center;
+    }

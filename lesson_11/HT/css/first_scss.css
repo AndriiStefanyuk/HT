@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+p.top {
+  font-size: 28px;
+  margin: 60px auto 20px auto;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  /*чому не працює псевдоелемент?*/
+}
+span::first-letter {
+  font-size: 20px;
+}
+
+.price_block {
+  height: auto;
+  width: auto;
+  margin: 0px 20px 20px 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 20px 10px #eff0f2;
+  /* box-shadow: inset 5px 10px blue, 10px 10px blue; */
+}
+
+.middle_block {
+  height: auto;
+  width: 600px;
+  margin: 30px auto;
+}
+
+.plan_name {
+  font-weight: bold;
+}
+
+ul li {
+  margin: 5px;
+}
+
+.ok {
+  list-style-image: url("../images/ok.jpg");
+}
+
+.not_ok {
+  list-style-image: url("../images/not_ok.jpg");
+}
+
+button {
+  margin: 0 10px;
+}
+
+.to_botton {
+  height: 1px;
+  width: 160px;
+  border: 1px solid #eff0f2;
+}
+
+/*# sourceMappingURL=first_scss.css.map */

@@ -1,0 +1,26 @@
+body{
+    background: lightgrey;
+}
+div.outside{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    width: 300px;
+    text-align: left;
+    padding:10px;
+}
+div{
+    border-bottom: 1px solid red;
+    text-align: center;
+}
+div#inside{
+    margin:0 25% 0 25%;
+}
