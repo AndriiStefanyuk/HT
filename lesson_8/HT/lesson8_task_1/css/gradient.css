@@ -1,27 +1,21 @@
-.container{
-    width: 300px;
-    height: 200px;
+.container {
+  width: 300px;
+  height: 200px;
   background-image: linear-gradient(to top right, gold, blue);
 
-   
-    box-shadow:
-                inset 1px 1px blue,
-                 1px 1px blue,
-                 -5px 5px 5px grey;
-    transform-origin: top;
-    transform: rotate(-30deg);*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: calc(50% - 100px);
-    left:0;
-    right: 0;
-    margin: 0 auto;
-
-
+  box-shadow: inset 1px 1px blue, 1px 1px blue, -5px 5px 5px grey;
+  transform-origin: top;
+  transform: rotate(-30deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-body{
-    height: 100%;
-    width: 100%;
+body {
+  height: 100%;
+  width: 100%;
 }

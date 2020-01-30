@@ -12,8 +12,8 @@
   color: red;
 }
 .fa-instagram:hover {
-  background-color: linear-gradient(
-    to right,
+  background-image: linear-gradient(
+    to right top,
     yellow,
     orange,
     red,
